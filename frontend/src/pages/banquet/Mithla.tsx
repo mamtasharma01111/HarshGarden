@@ -1,6 +1,10 @@
 import React from 'react';
-import { Users, Calendar, MapPin, Clock, Home, Speaker } from 'lucide-react';
+import { Users, Calendar, Clock, Home, Speaker } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Mithila4 from '../../mithila4.jpg';
+import Mithila3 from  '../../mithila3.jpeg';
+import Mithila2 from  '../../mithila2.jpeg'; 
+import Mithila1 from  '../../mithial1.jpeg';
 
 const Mithla = () => {
   const features = [
@@ -27,17 +31,17 @@ const Mithla = () => {
   ];
 
   const gallery = [
-    'https://images.unsplash.com/photo-1519125323398-675f0ddb6308',
-    'https://images.unsplash.com/photo-1509228468518-180dd4864904',
+    Mithila1,
+    Mithila2,
     'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
-    'https://images.unsplash.com/photo-1465101046530-73398c7f28ca'
+    Mithila3
   ];
 
   return (
     <div className="pt-20 min-h-screen">
       {/* Hero Section */}
       <div className="relative h-96 bg-cover bg-center" style={{
-        backgroundImage: 'url(https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop)'
+        backgroundImage: `url(${Mithila4})`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">
