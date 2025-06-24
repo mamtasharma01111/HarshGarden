@@ -215,6 +215,7 @@ const Rooms = () => {
                 ))}
               </div>
 
+
               {/* Quick Contact */}
               <div className="mt-8 bg-white rounded-2xl p-6 shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Contact</h3>
