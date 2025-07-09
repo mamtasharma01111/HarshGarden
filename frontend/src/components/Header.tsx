@@ -44,9 +44,9 @@ const Header = () => {
       label: 'Banquet', 
       path: '/banquet',
       dropdown: [
-        { label: 'Harsh Garden', path: '/banquet/harshgarden' },
-        { label: 'Avantika', path: '/banquet/avantika' },
-        { label: 'Mithla', path: '/banquet/mithla' }
+        { label: 'Awadh Hall', path: '/banquet/awadhhall' },
+        { label: 'Awantika', path: '/banquet/awantika' },
+        { label: 'Mithilla', path: '/banquet/mithilla' }
       ]
     },
     { label: 'Contact', path: '/contact' },

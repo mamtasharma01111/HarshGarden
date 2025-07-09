@@ -2,7 +2,7 @@ import React from 'react';
 import { Users, Calendar, MapPin, Clock, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const HarshGarden = () => {
+const AwadhHall = () => {
   const features = [
     {
       title: 'Elegant Crystal Chandeliers',
@@ -42,7 +42,7 @@ const HarshGarden = () => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">
           <div>
-            <h1 className="text-5xl font-bold mb-4">Harsh <span className="text-amber-400">Garden</span></h1>
+            <h1 className="text-5xl font-bold mb-4">Awadh <span className="text-amber-400">Hall</span></h1>
             <p className="text-xl">Elegant space for large celebrations</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const HarshGarden = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Venue Overview</h2>
               <p className="text-lg text-gray-600 mb-8">
                 Harsh Garden is our premier venue, perfect for grand celebrations and large gatherings. 
-                With a capacity of up to 500 guests, this elegant space features crystal chandeliers, 
+                With a capacity of up to 500+ guests, this elegant space features crystal chandeliers, 
                 a spacious dance floor, and a professional stage. The venue combines luxury with 
                 functionality, making it ideal for weddings, corporate events, and social celebrations.
               </p>
@@ -65,7 +65,7 @@ const HarshGarden = () => {
                   <Users className="w-6 h-6 text-amber-600 mr-3" />
                   <div>
                     <div className="text-sm text-gray-500">Capacity</div>
-                    <div className="font-semibold">500 Guests</div>
+                    <div className="font-semibold">500+ Guests</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -129,4 +129,4 @@ const HarshGarden = () => {
   );
 };
 
-export default HarshGarden; 
+export default AwadhHall; 

@@ -6,7 +6,7 @@ import Mithila3 from  '../../mithila3.jpeg';
 import Mithila2 from  '../../mithila2.jpeg'; 
 import Mithila1 from  '../../mithial1.jpeg';
 
-const Mithla = () => {
+const Mithilla = () => {
   const features = [
     {
       title: 'Intimate Setting',
@@ -46,7 +46,7 @@ const Mithla = () => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">
           <div>
-            <h1 className="text-5xl font-bold mb-4">Mithla <span className="text-amber-400">Banquet</span></h1>
+            <h1 className="text-5xl font-bold mb-4">Mithilla <span className="text-amber-400">Banquet</span></h1>
             <p className="text-xl">Cozy indoor banquet for intimate celebrations</p>
           </div>
         </div>
@@ -60,7 +60,7 @@ const Mithla = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Banquet Overview</h2>
               <p className="text-lg text-gray-600 mb-8">
                 Mithla is our small, elegant indoor banquet, ideal for private parties, family functions, and business meetings. 
-                With a capacity of up to 100 guests, this cozy space features tasteful décor, air conditioning, and a modern sound system. 
+                With a capacity of up to 200+ guests, this cozy space features tasteful décor, air conditioning, and a modern sound system. 
                 Enjoy a comfortable and exclusive environment for your special occasions.
               </p>
               <div className="grid grid-cols-2 gap-6">
@@ -68,7 +68,7 @@ const Mithla = () => {
                   <Users className="w-6 h-6 text-amber-600 mr-3" />
                   <div>
                     <div className="text-sm text-gray-500">Capacity</div>
-                    <div className="font-semibold">100 Guests</div>
+                    <div className="font-semibold">200+ Guests</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -132,4 +132,4 @@ const Mithla = () => {
   );
 };
 
-export default Mithla; 
+export default Mithilla; 

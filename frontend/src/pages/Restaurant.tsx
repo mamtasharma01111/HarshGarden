@@ -1,4 +1,14 @@
 import { Clock, Award, Users, ChefHat } from 'lucide-react';
+import Drums_of_heaven from '../assets/drums_of_heaven.jpg';
+import LemonChicken from '../assets/lemonChicken.jpg';
+import MurgMushallam from '../assets/murg_mushallam.jpg';
+import VegThali from '../assets/VegThali.jpg';
+import IraniChicken from '../assets/IraniChicken.jpg';
+import ButterChicken from '../assets/ButterChicken.jpg';
+import KaveriChicken from '../assets/KaveriChicken.jpg';
+import NonVegThali from '../assets/NonVegThali.jpg';
+import Mushroom from '../assets/mushroom.jpg';
+
 
 const banner = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb';
 const restaurantImg = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop';
@@ -6,77 +16,64 @@ const restaurantImg = 'https://images.unsplash.com/photo-1504674900247-0877df9cc
 const Restaurant = () => {
   const menuCategories = [
     {
-      name: 'Starter',
+      name: 'Our Special Dishes',
       items: [
         {
-          name: 'Truffle Arancini',
+          name: 'Afgani Pineapple Mushroom Tikka',
           description: 'Crispy risotto balls with black truffle and parmesan',
-          price: '₹450',
-          image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+          price: '₹XXX',
+          image: Mushroom,
         },
         {
-          name: 'Seared Scallops',
+          name: 'Drums of Heaven',
           description: 'Pan-seared scallops with cauliflower puree',
-          price: '₹499',
-          image: 'https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
-        }
-      ]
-    },
-    {
-      name: 'Main Courses',
-      items: [
-        {
-          name: 'Grilled Salmon',
-          description: 'Fresh Atlantic salmon with herbs and lemon',
-          price: '₹650',
-          image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+          price: '₹475',
+          image: Drums_of_heaven
         },
         {
-          name: 'Beef Tenderloin',
-          description: 'Premium cut with red wine reduction',
-          price: '₹450',
-          image: 'https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+          name: 'Shredded Butter Chicken',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹XXX',
+          image: ButterChicken,
         },
         {
-          name: 'Lobster Risotto',
-          description: 'Creamy arborio rice with fresh lobster',
-          price: '₹450',
-          image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
-        }
-      ]
-    },
-    {
-      name: 'Desserts',
-      items: [
-        {
-          name: 'Chocolate Soufflé',
-          description: 'Rich dark chocolate with vanilla ice cream',
-          price: '₹650',
-          image: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+          name: 'Kaveri Special Mutton',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹XXX',
+          image: KaveriChicken,
         },
-        {
-          name: 'Crème Brûlée',
-          description: 'Classic French custard with caramelized sugar',
-          price: '₹500',
-          image: 'https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
-        }
+         {
+          name: 'Irani Special Mutton',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹XXX',
+          image: IraniChicken,
+        },
+         {
+          name: 'Murg Mushallam',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹779',
+          image: MurgMushallam,
+        },
+         {
+          name: 'Lemon Chicken',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹XXX',
+          image: LemonChicken
+        },
+         {
+          name: 'Kaveri special Veg Thali',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹325',
+          image: VegThali,
+        },
+         {
+          name: 'Kaveri special Non-Veg Thali',
+          description: 'Pan-seared scallops with cauliflower puree',
+          price: '₹375',
+          image: NonVegThali,
+        },
       ]
-    }
-  ];
-
-  const chefs = [
-    {
-      name: 'Chef Marcus Laurent',
-      title: 'Executive Chef',
-      image: 'https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      description: 'Michelin-starred chef with 20+ years of experience'
     },
-    {
-      name: 'Chef Isabella Rodriguez',
-      title: 'Pastry Chef',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      description: 'Award-winning pastry chef specializing in French desserts'
-    }
   ];
 
   return (
@@ -105,7 +102,7 @@ const Restaurant = () => {
                 {[{
                   icon: <Award className="w-8 h-8 text-amber-600" />, title: 'Michelin Rated', desc: 'Award-winning cuisine'
                 }, {
-                  icon: <Clock className="w-8 h-8 text-amber-600" />, title: 'Open Daily', desc: '6 AM - 11 PM'
+                  icon: <Clock className="w-8 h-8 text-amber-600" />, title: 'Open Daily', desc: '9:30 AM - 11 PM'
                 }, {
                   icon: <Users className="w-8 h-8 text-amber-600" />, title: 'Private Dining', desc: 'Special occasions'
                 }].map((info, idx) => (
@@ -128,7 +125,7 @@ const Restaurant = () => {
               <div className="hidden lg:block absolute left-1/3 top-8 bottom-8 w-px bg-amber-200 z-10" />
               <div className="relative lg:w-1/3 w-full bg-white/60 backdrop-blur-md rounded-2xl shadow-2xl border border-amber-100 p-6 flex flex-col justify-center mb-8 lg:mb-0 overflow-hidden hover:shadow-amber-200 transition-shadow duration-300 min-h-0">
                 <ChefHat className="absolute opacity-10 text-amber-200 w-32 h-32 right-0 bottom-0 pointer-events-none" />
-                <h3 className="text-xl font-bold text-amber-700 mb-2">Welcome to Hotel Harsh Restaurant</h3>
+                <h3 className="text-xl font-bold text-amber-700 mb-2">Welcome to Kaveri Restaurant</h3>
                 <p className="text-gray-700 mb-3 text-base leading-relaxed">
                   Explore a world of flavors crafted by our expert chefs. Enjoy signature dishes, seasonal specials, and a refined dining experience.
                 </p>
@@ -177,22 +174,7 @@ const Restaurant = () => {
             ))}
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Meet Our Chefs</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {chefs.map((chef, index) => (
-                <div
-                  key={index}
-                  className="text-center bg-white/70 backdrop-blur-md p-6 rounded-2xl shadow hover:shadow-amber-200 hover:-translate-y-1 transform transition-all duration-300 border border-amber-100"
-                >
-                  <img src={chef.image} alt={chef.name} className="w-32 h-32 rounded-full mx-auto mb-6 object-cover shadow-lg" />
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{chef.name}</h3>
-                  <p className="text-amber-600 font-semibold mb-3">{chef.title}</p>
-                  <p className="text-gray-600">{chef.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

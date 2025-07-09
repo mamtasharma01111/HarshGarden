@@ -29,22 +29,22 @@ const Banquet = () => {
 
   const venues = [
     { 
-      title: 'Harsh Garden', 
-      capacity: '500 guests', 
+      title: 'Awadh Hall', 
+      capacity: '500+ guests', 
       description: 'Elegant space for large celebrations',
       image: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       features: ['Crystal Chandeliers', 'Dance Floor', 'Stage', 'VIP Area']
     },
     { 
-      title: 'Mithla', 
-      capacity: '1200 guests', 
+      title: 'Mithilla', 
+      capacity: '200+ guests', 
       description: 'Outdoor venue with natural beauty',
       image: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       features: ['Garden Views', 'Natural Lighting', 'Gazebo', 'Water Features']
     },
     { 
-      title: 'Avantika', 
-      capacity: '300 guests', 
+      title: 'Awantika', 
+      capacity: '100+ guests', 
       description: 'Perfect for business events',
       image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       features: ['Presentation Screen', 'Conference Setup', 'WiFi', 'Catering Kitchen']

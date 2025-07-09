@@ -2,7 +2,7 @@ import React from 'react';
 import { Users, Calendar, MapPin, Clock, Monitor, Wifi } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Avantika = () => {
+const Awantika = () => {
   const features = [
     {
       title: 'Professional AV Setup',
@@ -42,7 +42,7 @@ const Avantika = () => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">
           <div>
-            <h1 className="text-5xl font-bold mb-4">Avantika <span className="text-amber-400">Venue</span></h1>
+            <h1 className="text-5xl font-bold mb-4">Awantika <span className="text-amber-400">Venue</span></h1>
             <p className="text-xl">Perfect for business events and corporate gatherings</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Avantika = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Venue Overview</h2>
               <p className="text-lg text-gray-600 mb-8">
                 Avantika is our modern business venue, designed specifically for corporate events, 
-                conferences, and professional gatherings. With a capacity of 300 guests, this 
+                conferences, and professional gatherings. With a capacity of 100+ guests, this 
                 sophisticated space features state-of-the-art AV equipment, high-speed WiFi, 
                 and a professional conference setup. Perfect for business meetings, seminars, 
                 and corporate celebrations.
@@ -66,7 +66,7 @@ const Avantika = () => {
                   <Users className="w-6 h-6 text-amber-600 mr-3" />
                   <div>
                     <div className="text-sm text-gray-500">Capacity</div>
-                    <div className="font-semibold">300 Guests</div>
+                    <div className="font-semibold">100+ Guests</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -130,4 +130,4 @@ const Avantika = () => {
   );
 };
 
-export default Avantika; 
+export default Awantika; 

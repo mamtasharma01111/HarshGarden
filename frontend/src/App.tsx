@@ -8,9 +8,9 @@ import Rooms from './pages/Rooms';
 import Restaurant from './pages/Restaurant';
 import Banquet from './pages/Banquet';
 import Contact from './pages/Contact';
-import HarshGarden from './pages/banquet/HarshGarden';
-import Avantika from './pages/banquet/Avantika';
-import Mithla from './pages/banquet/Mithla';
+import AwadhHall from './pages/banquet/AwadhHall';
+import Awantika from './pages/banquet/Avantika';
+import Mithilla from './pages/banquet/Mithla';
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
             <Route path="/rooms" element={<Rooms />} />
             <Route path="/restaurant" element={<Restaurant />} />
             <Route path="/banquet" element={<Banquet />} />
-            <Route path="/banquet/harshgarden" element={<HarshGarden />} />
-            <Route path="/banquet/avantika" element={<Avantika />} />
-            <Route path="/banquet/mithla" element={<Mithla />} />
+            <Route path="/banquet/awadhhall" element={<AwadhHall />} />
+            <Route path="/banquet/awantika" element={<Awantika />} />
+            <Route path="/banquet/mithilla" element={<Mithilla />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
