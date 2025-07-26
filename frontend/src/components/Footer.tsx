@@ -20,13 +20,6 @@ const Footer = () => {
     'Laundry Service'
   ];
 
-  const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: '#', name: 'Facebook' },
-    { icon: <Twitter className="w-5 h-5" />, href: '#', name: 'Twitter' },
-    { icon: <Instagram className="w-5 h-5" />, href: '#', name: 'Instagram' },
-    { icon: <Linkedin className="w-5 h-5" />, href: '#', name: 'LinkedIn' },
-  ];
-
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16 ">
@@ -45,7 +38,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-amber-400" />
-                <span className="text-gray-300">+91 **********</span>
+                <span className="text-gray-300">+91 8873291214</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-amber-400" />
+                <span className="text-gray-300">+91 7209291214</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-amber-400" />

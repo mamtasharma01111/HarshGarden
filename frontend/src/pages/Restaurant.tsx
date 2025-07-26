@@ -8,10 +8,11 @@ import ButterChicken from '../assets/ButterChicken.jpg';
 import KaveriChicken from '../assets/KaveriChicken.jpg';
 import NonVegThali from '../assets/NonVegThali.jpg';
 import Mushroom from '../assets/mushroom.jpg';
+import BannerImage from "../assets/BannerImage.png";
+import ResturantImage from '../assets/resturantImage.jpg';
 
-
-const banner = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb';
-const restaurantImg = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop';
+const banner = BannerImage;
+const restaurantImg = ResturantImage;
 
 const Restaurant = () => {
   const menuCategories = [

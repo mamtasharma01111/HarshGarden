@@ -1,6 +1,8 @@
-import React from 'react';
-import { Users, Calendar, MapPin, Clock, Monitor, Wifi } from 'lucide-react';
+import { Users, Calendar, Clock, Monitor, Wifi } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import corporate from '../../assets/Banquet/corprateMeeting.jpeg';
+import BridalImage from '../../assets/Banquet/BridalImage.jpg';
+import PartyVibe from '../../assets/Banquet/PartyVibe.jpeg';
 
 const Awantika = () => {
   const features = [
@@ -27,17 +29,17 @@ const Awantika = () => {
   ];
 
   const gallery = [
-    'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg',
-    'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg',
-    'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg',
-    'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg'
+    corporate,
+    BridalImage,
+    PartyVibe,
+    corporate
   ];
 
   return (
     <div className="pt-20 min-h-screen">
       {/* Hero Section */}
       <div className="relative h-96 bg-cover bg-center" style={{
-        backgroundImage: 'url(https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop)'
+        backgroundImage: `url(${corporate})`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">

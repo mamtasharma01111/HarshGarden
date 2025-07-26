@@ -3,9 +3,9 @@ import AboutUsImage from '../aboutusimage.png';
 
 const About = () => {
   const stats = [
-    { number: '10+', label: 'Years of Excellence' },
+    { number: '15+', label: 'Years of Excellence' },
     { number: '25k+', label: 'Happy Guests' },
-    { number: '50+', label: 'Luxury Rooms' },
+    { number: '25+', label: 'Luxury Rooms' },
     { number: '24/7', label: 'Concierge Service' }
   ];
 

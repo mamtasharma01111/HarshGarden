@@ -1,10 +1,10 @@
-import React from 'react';
 import { Users, Calendar, Clock, Home, Speaker } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Mithila4 from '../../mithila4.jpg';
 import Mithila3 from  '../../mithila3.jpeg';
 import Mithila2 from  '../../mithila2.jpeg'; 
 import Mithila1 from  '../../mithial1.jpeg';
+import Mithila5 from '../../assets/Banquet/Methila5.jpeg';
 
 const Mithilla = () => {
   const features = [
@@ -33,7 +33,7 @@ const Mithilla = () => {
   const gallery = [
     Mithila1,
     Mithila2,
-    'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
+    Mithila5,
     Mithila3
   ];
 

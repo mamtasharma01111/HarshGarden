@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import Background from "../assets/background.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -66,7 +67,7 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: ['9560263511']
+      details: ['+91 8873291214 (For Hotel & Banquet)', '+91 7209291214 (For Restaurant)']
     },
     {
       icon: <Mail className="w-6 h-6" />,
@@ -107,7 +108,7 @@ const Contact = () => {
     <div className="pt-20 min-h-screen">
       {/* Hero Section */}
       <div className="relative h-96 bg-cover bg-center" style={{
-        backgroundImage: 'url(https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop)'
+        backgroundImage: Background
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center">
@@ -148,7 +149,7 @@ const Contact = () => {
                 <div className="space-y-3">
                   <a href="tel:+15551234567" className="flex items-center space-x-3 text-gray-600 hover:text-amber-600 transition-colors">
                     <Phone className="w-5 h-5" />
-                    <span>Call us now: +91 9560263511</span>
+                    <span>Call us now: +91 8873291214 / +91 7209291214</span>
                   </a>
                   <a href="mailto:info@luxuria.com" className="flex items-center space-x-3 text-gray-600 hover:text-amber-600 transition-colors">
                     <Mail className="w-5 h-5" />
